@@ -1,0 +1,16 @@
+accelerate
+gradio==4.19.0
+fire
+diffusers==0.26.3
+torch==2.2.0
+tensorrt==8.6.1
+xFormers
+transformers
+safetensors
+gdown
+einops
+omegaconf
+pillow
+onnxruntime 
+onnxruntime-gpu 
+colored
