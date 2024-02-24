@@ -1,6 +1,8 @@
 # Sketch To Realistic Image Generation
 A Stable Diffusion Image-To-Image Pipeline Accelerated by TensorRT to convert Sketches to Realistic Images.
 
+![alt text](assets/image.png)
+
 ### Steps to Deploy and Run:
 Checkout the code:
 ```sh
@@ -67,7 +69,10 @@ Application launches on port 7860 after a while, make sure to check the containe
 docker run --gpus all -it -p 8000:8000 -v .\LOCAL_DIR\:/CONTAINER_DIR/ nvcr.io/nvidia/tensorrt:24.01-py3
 ```
 
+#### Another Example with higher strength and guidance scales:
+![alt text](assets/image2.png)
+
 #### References:
-https://docs.nvidia.com/deeplearning/tensorrt/quick-start-guide/index.html#introduction
-https://github.com/huggingface/diffusers/tree/main/examples/text_to_image
-https://github.com/huggingface/diffusers/blob/main/examples/community/README.md
+* https://docs.nvidia.com/deeplearning/tensorrt/quick-start-guide/index.html#introduction
+* https://github.com/huggingface/diffusers/tree/main/examples/text_to_image
+* https://github.com/huggingface/diffusers/blob/main/examples/community/README.md
